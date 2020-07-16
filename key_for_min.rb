@@ -6,13 +6,14 @@ i = 1
 name_hash.each do |key, value|
   if name_hash.empty?
     answer_key = nil
-    elsif i = 1
-      min_value=value
-      answer_key = ""
-      elsif  value < min_value
-        min_value = value
-        answer_key = key
+  elsif i = 1
+    min_value=value
+    answer_key = ""
+  elsif  value < min_value
+      min_value = value
+      answer_key = key
   end #if
-  return answer_key
-  end #do
+  i += 1
+ end #do
+return answer_key
 end
