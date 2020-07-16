@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 i = 1
 name_hash.each do |key, value|
-  if name_hash{}.empty?
+  if name_hash.empty?
     answer_key = nil
     elsif i = 1
       min_value=value
